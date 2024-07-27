@@ -7,7 +7,7 @@ function RegisterModal({registerModal,setRegisterModal,setLoginModal}) {
         <div className={`modal ${registerModal ? 'open flex justify-center items-center' : 'flex justify-center items-center'}`}>
         <div className='loginCard mt-6'>
             <div className='bg-[--card-bg] p-1 loginForm relative'>
-                <div onClick={()=>setRegisterModal(false)} className='flex justify-end items-center absolute top-6 right-4 cursor-pointer'>
+                <div onClick={()=>setRegisterModal(false)} className='flex justify-end items-center absolute top-4 right-4 cursor-pointer'>
                     <div className='bg-[--body-bg] w-[32px] h-[32px] rounded-2xl flex justify-center items-center'>
                         <img width={20} height={20} src={close} alt='close' />
                     </div>

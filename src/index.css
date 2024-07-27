@@ -74,10 +74,14 @@ textarea {
     max-width: 100%;
     min-width: 100%;
     padding: 15px;
-}
-.loginCard {
-  max-width: 100%;
-  min-width: 100%;
-  position: relative;
-}
+  }
+  .loginCard {
+    max-width: 100%;
+    min-width: 100%;
+    position: relative;
+  }
+  .modal .loginCard {
+    max-width: 90%;
+    min-width: 90%;
+  }
 }
